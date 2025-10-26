@@ -1,14 +1,15 @@
-
 {
   "name": "basic-web-server",
   "version": "1.0.0",
-  "description": "Um servidor web básico para demostrar uma API simples.",
-  "main": "basic_web_server.js",
+  "description": "Um servidor web b\u00e1sico para demostrar uma API simples.",
+  "main": "index.js",
   "scripts": {
-    "start": "node basic_web_server.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^17.2.3",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.66.0"
   },
   "author": "",
   "license": "ISC"
